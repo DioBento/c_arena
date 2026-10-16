@@ -58,7 +58,7 @@ This builds the demo executable.
 ### Run
 
 ```sh
-./main
+./demo
 ```
 
 The demo performs repeated allocations of 16 MiB. Press `q` to exit.
@@ -82,7 +82,7 @@ make clean
 ├── arena.c
 ├── arena.h
 ├── types.h
-├── main.c
+├── demo.c
 ├── tests/
 │   └── arena_tests.c
 ├── Makefile

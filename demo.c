@@ -25,7 +25,6 @@ i32 main()
 
         int ch = getc(stdin);
         if (ch == 'q' || ch == EOF) { break; }
-        // if (getc(stdin) == 'q') { break; }
     }
 
     arena_destroy(perm_arena);
